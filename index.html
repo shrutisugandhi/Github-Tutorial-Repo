@@ -5,62 +5,66 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Github Commands Usage</title>
+    <title>Document</title>
+    <style>
+        h2 {
+            color: green;
+        }
+        
+        .name {
+            color: yellow;
+        }
+        
+        #name1 {
+            color: orange;
+        }
+        
+        h6 {
+            color: green;
+        }
+        
+        .msg {
+            color: blue;
+        }
+        
+        h2 {
+            color: orange;
+        }
+        
+        #txt {
+            color: red;
+        }
+        
+        .msg1 {
+            color: aqua;
+        }
+        
+        #msg2 {
+            color: blueviolet;
+        }
+        
+        h3 {
+            color: chartreuse;
+        }
+    </style>
 </head>
 
 <body>
-    <h4>Github Commands Usage Tutorial</h4>
+    <!-- <h2 style="color: red">
+        Hello ->here inline styling is prefered rather than internal styling in head
+    </h2>
+    <h5 class="name" id="name1">John -> Id is given preference over class</h5>
 
-    <p>Git is for tracking changes</p>
+    <h6 class="msg">Welcome ->here class is given prefernce over element</h6>
 
-    <ul>
-        <li>Git create a repo which contain all your source code file</li>
-        <li>
-            create a file & then commit to main/master branch means saved to local git repo .Always give proper commit msg of each commit.
-            <p>commit means this is final version of my code</p>
-        </li>
-        <li>
-            publish repo means push repo to remote git origin
-            <br /> publish/push code to remote repo for sharing with team using repo url
-        </li>
-        <li>
-            Push code to remote copy of your repo on Github(collection of all your repos) & so this is also called as open source contribution as all team member can perform content modification
-        </li>
-        <li>
-            markdown is one of feature of git which convert your text in Readme.md file into proper html file which is also understooble by git
-        </li>
-        <li>Deploy this demo to netlify</li>
-        <li>
-            after commit and push to github remote repo you will noticed deployment is also done at netlify once you refresh your netlify site.
-            <p>
-                This above process of pushing code to repo & it is updated at your hosting site - called as continuous deployment
-            </p>
-        </li>
-        <li>
-            Create a branch named as -Dashboard branch ,
-            <p>
-                Branch is similar to working on diff module/feature & once work completed (or as a backup of your work )save it on main branch at repo to avoid future loss of code at local machine
-            </p>
-            <p>Commit code & publish code on new branch</p>
-            <p>
-                Compare between main branch index.html & dashboard branch index.html, you will notice change in content on both branches ,so for this you have to merge your dashboard branch to main branch
-            </p>
-            <p>
-                Also netlify uses main branch for deployment not any other branch ,if your code is not merged in main branch so it wont be shown neither at main branch not at netlify website
-            </p>
-        </li>
-        <li>Open a PR(pull request) means : PR review, important when you're working in a team
-            <ul>
-                <li>create a pull request for your new branch</li>
-                <li>fill in description and headline</li>
-                <li>check out the file changes</li>
-                <li>get the PR link. you can send this for review to your friend to make sure that you're doing the right changes. That would essentially be PR review </li>
-                <li>share this pull request link with peers for review -> https://github.com/shrutisugandhi/Github-Tutorial-Repo/pull/1</li>
-        </li>
-        <li>Merge pull request to main branch & see changes on main branch</li>
-        </ul>
-        </li>
-    </ul>
+    <h2 id="txt">Hello ->id given prefernce over element</h2>
+
+    <h3 class="msg1" id="msg2" style="color: red">Final Call</h3>
+    <section>
+        Css Specificity Preference :- Inline-Styling>Id>class>element>*(universal specificity)
+    </section> -->
+    <button id="btn">Like</button>
+    <script src="event.js"></script>
 </body>
 
 </html>
